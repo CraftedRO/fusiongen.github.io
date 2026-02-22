@@ -7,50 +7,10 @@
   <meta name="keywords" content="FusionCMS, FusionGen, WoW, World of Warcraft CMS, Homepage, WoW-CMS, Web">
   <title>FusionGEN - Modern & Modular CMS</title>
   <link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/u/64651572">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
-
-<style>
-    body {
-        scroll-behavior: smooth;
-        background: radial-gradient(circle at 20% 20%, #1a1f3a, #0f172a 60%);
-        color: #e2e8f0;
-        overflow-x: hidden;
-    }
-
-    .glow-text {
-        background: linear-gradient(90deg,#4f9cff,#a855f7);
-        -webkit-background-clip:text;
-        -webkit-text-fill-color:transparent;
-    }
-
-    .glass-card {
-        background: rgba(255,255,255,0.02);
-        backdrop-filter: blur(12px);
-        border: 1px solid rgba(255,255,255,0.1);
-        border-radius: 15px;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    .glass-card:hover { 
-        transform: translateY(-10px);
-        background: rgba(255,255,255,0.04);
-    }
-
-    .nav-glass {
-        background: rgba(15, 23, 42, 0.8);
-        backdrop-filter: blur(10px);
-        border-bottom: 1px solid rgba(255,255,255,0.1);
-    }
-
-    .hero { padding: 160px 0 100px; }
-    
-    .feature-icon {
-        font-size: 2.5rem;
-        color: #4f9cff;
-        margin-bottom: 1rem;
-    }
-</style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body>
 
@@ -63,9 +23,9 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto align-items-center">
                 <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="https://github.com/FusionGen/FusionGEN">GitHub</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Docs</a></li>
-                <li class="nav-item"><a class="nav-link" href="https://discord.gg/5nSt9puU4V">Discord</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://github.com/FusionGen/FusionGEN" target="_blank">GitHub</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" target="_blank">Docs</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://discord.gg/5nSt9puU4V" target="_blank">Discord</a></li>
                 <li class="nav-item ms-lg-3">
                     <div class="dropdown">
                         <button class="btn btn-primary rounded-pill btn-sm dropdown-toggle px-3" data-bs-toggle="dropdown">Soon</button>
@@ -85,11 +45,11 @@
         <h1 class="display-4 fw-bold"><span class="glow-text">FusionGEN</span> CMS</h1>
 		<blockquote class="blockquote">
         <p class="mt-4 mx-auto w-75">
-            A free, open-source content management system. <br>Server owners all around the world rely upon us for ease of use, security, and dedication to simplicity.
+            A free, open-source content management system.<br>Server owners all around the world rely upon us for ease of use, security, and dedication to simplicity.
         </p>
 		</blockquote>
         <div class="mt-5">
-            <a href="#download-section" class="btn btn-primary rounded-pill btn-lg px-5 shadow-lg">Get Started</a>
+            <a href="#feature" class="btn btn-primary rounded-pill btn-lg px-5 shadow-lg">Get Started</a>
         </div>
         <div class="mt-5" data-aos="zoom-in" data-aos-delay="200">
             <img src="assets/images/classic.png" class="img-fluid rounded-4 shadow" style="max-width: 80%; opacity: 0.9;" alt="Dashboard Preview">
@@ -97,7 +57,7 @@
     </div>
 </section>
 
-<section class="py-5">
+<section id="feature" class="py-5">
     <div class="container">
         <div class="text-center mb-5" data-aos="fade-up">
             <h2 class="fw-bold h1">Great Features</h2>
@@ -180,18 +140,15 @@
     </div>
 </section>
 
-<section id="download-section" class="py-5">
+<section id="download" class="py-5">
     <div class="container">
         <div class="glass-card p-5 text-center" data-aos="zoom-in" data-aos-duration="1000">
-            <h2 class="fw-bold mb-3">Try it Now!</h2>
-            <p class="text-secondary-emphasis fw-bold mb-4 mx-auto">
-                Join dozens of server owners who've already installed FusionGEN.
-                <br>Experience the next generation of WoW CMS today.
-            </p>
+            <h2 class="fw-bold mb-4">Try it Now!</h2>
+            <p class="text-secondary-emphasis fw-bold mb-4 mx-auto">Join dozens of server owners who've already installed FusionGEN and experience the next generation of WoW CMS today.</p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <a href="https://github.com/FusionGen/FusionGEN/archive/refs/heads/main.zip" class="btn btn-primary rounded-pill btn-lg px-5 shadow-lg">Download <i class="fa-solid fa-download"></i>
-                </a>
+                <a href="https://github.com/FusionGen/FusionGEN/archive/refs/heads/main.zip" class="btn btn-primary rounded-pill btn-lg px-5 shadow-lg">Download <i class="fa-solid fa-download"></i></a>
             </div>
+			<p class="mt-4 mx-auto">Recommend PHP 8.1 or greater and MySQL version 8.0 or MariaDB version 10.6 or greater.</p>
         </div>
     </div>
 </section>
@@ -201,10 +158,7 @@
         <div class="row align-items-center gy-4">
             <div class="col-lg-8 col-md-7">
                 <h5 class="fw-bold glow-text mb-3">FusionGEN</h5>
-                <p class="small text-secondary-emphasis lh-base mb-4 mb-md-0">
-                    A free, open-source content management system dedicated to simplicity and security for World of Warcraft servers. 
-                    <br>Designed for performance and ease of use by the community.
-                </p>
+                <p class="small text-secondary-emphasis lh-base mb-4 mb-md-0">A free, open-source content management system dedicated to simplicity and security for World of Warcraft servers.<br>Engineered for performance; built for the community.</p>
             </div>
 
             <div class="col-lg-4 col-md-5 text-md-end">
@@ -214,9 +168,9 @@
                     <a href="#" class="small text-primary-emphasis text-decoration-none"><i class="fa-solid fa-angle-right"></i> Terms of Service</a>
                 </div>
                 <div class="d-flex justify-content-md-end gap-3">
-                    <a href="https://github.com/FusionGen/FusionGEN" class="text-secondary-emphasis text-decoration-none"><i class="fa-brands fa-github"></i></a>
-                    <a href="#" class="text-secondary-emphasis text-decoration-none"><i class="fa-brands fa-x-twitter"></i></a>
-                    <a href="https://discord.gg/5nSt9puU4V" class="text-secondary-emphasis text-decoration-none"><i class="fa-brands fa-discord"></i></a>
+                    <a href="https://github.com/FusionGen/FusionGEN" target="_blank" class="text-secondary-emphasis text-decoration-none"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" target="_blank" class="text-secondary-emphasis text-decoration-none"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://discord.gg/5nSt9puU4V" target="_blank" class="text-secondary-emphasis text-decoration-none"><i class="fa-brands fa-discord"></i></a>
                 </div>
             </div>
         </div>
@@ -229,16 +183,14 @@
                     </p>
                 </div>
                 <div class="col-md-6 text-center text-md-end mt-2 mt-md-0">
-                    <p class="small text-secondary-emphasis mb-0">
-                        Designed with <i class="fa-solid fa-heart text-danger"></i> by <strong>Err0r</strong> & updated by <strong>Crafted</strong>.
-                    </p>
+                    <p class="small text-secondary-emphasis mb-0">Designed with <i class="fa-solid fa-heart text-danger"></i> by <strong>Err0r</strong> & updated by <strong>Crafted</strong>.</p>
                 </div>
             </div>
         </div>
     </div>
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init({ once: true });
