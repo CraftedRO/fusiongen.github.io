@@ -40,3 +40,37 @@ body {
 section[id] {
 	scroll-margin-top: 100px;
 }
+
+.changelog-item {
+	border-left: 2px solid var(--bs-primary);
+	padding-left: 20px;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.changelog-item::before {
+	content: '';
+	position: absolute;
+	left: -7px;
+	top: 0;
+	width: 12px;
+	height: 12px;
+	background: var(--bs-primary);
+	border-radius: 50%;
+	box-shadow: 0 0 10px var(--bs-primary);
+}
+
+.update-list {
+	list-style: none;
+	padding-left: 0;
+}
+
+.update-list li {
+	margin-bottom: 10px;
+	color: #adb5bd;
+}
+
+.update-list i {
+	margin-right: 10px;
+	color: #0d6efd;
+}

@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="The page you're looking for doesn't exist. How you got here is a mystery. But you can click the button below to go back to the homepage.">
-  <title>FusionGEN - Page not found</title>
+  <meta name="description" content="Latest FusionGEN updates and improvements.">
+  <meta name="keywords" content="FusionGEN, FusionCMS, WoW, World of Warcraft CMS, Homepage, WoW-CMS, Web">
+  <title>FusionGEN - Changelog</title>
   <link rel="icon" type="image/png" href="https://avatars.githubusercontent.com/u/64651572">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/cookie-banner.css">
@@ -30,7 +31,7 @@
                 <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="https://github.com/FusionGen/FusionGEN" target="_blank">GitHub</a></li>
                 <li class="nav-item"><a class="nav-link" href="https://discord.gg/5nSt9puU4V" target="_blank">Discord</a></li>
-                <li class="nav-item"><a class="btn btn-primary rounded-pill btn-sm" href="changelog.html"><i class="fa-solid fa-screwdriver-wrench"></i> Changelog</a></li>
+                <li class="nav-item"><a class="btn btn-primary rounded-pill btn-sm" href="#"><i class="fa-solid fa-screwdriver-wrench"></i> Changelog</a></li>
                 <!-- <li class="nav-item ms-lg-3"> -->
                     <!-- <div class="dropdown"> -->
                         <!-- <button class="btn btn-primary rounded-pill btn-sm dropdown-toggle px-3" data-bs-toggle="dropdown">Soon</button> -->
@@ -45,15 +46,45 @@
     </div>
 </nav>
 
-<section class="hero text-center">
+<section class="hero py-5 mt-5">
     <div class="container" data-aos="fade-up" data-aos-duration="1000">
         <div class="row justify-content-center">
             <div class="col-lg-12">
-                <div class="glass-card p-5 text-center aos-init aos-animate" data-aos="zoom-in" data-aos-duration="1000">
-                <h1 class="mt-5 glow-text">4 <i class="fas fa-cog fa-spin glow-text"></i> 4</h1>
-                <h2 class="h4 mb-5">UH OH! You're lost.</h2>
-                <p class="my-4">The page you're looking for doesn't exist. How you got here is a mystery. But you can click the button below to go back to the homepage.</p>
-                <a href="index.html" class="btn btn-primary rounded-pill mt-4"><i class="fa-solid fa-house"></i> Home</a>
+                <div class="card bg-transparent p-5">
+                    <h1 class="glow-text mb-4 text-center fw-bold">FusionGEN Changelog</h1>
+                    <p class="text-center mb-5">Latest updates and improvements</p>
+
+                    <div class="changelog-item" data-aos="fade-right">
+                        <h3 class="h4 text-white fw-bold">February 2026</h3>
+                        <ul class="update-list mt-3">
+                            <li><i class="fa-solid fa-minus"></i> Updated CodeIgniter to version 3.4.2</li>
+                            <li><i class="fa-solid fa-minus"></i> Updated Smarty to version 5.8.0</li>
+                            <li><i class="fa-solid fa-minus"></i> Allowed CMS installation on PHP 8.5.3 and verified compatibility</li>
+                            <li><i class="fa-solid fa-minus"></i> Initial admin theme debloat: removed few unused libraries and files</li>
+                            <li><i class="fa-solid fa-minus"></i> Suppressed errors when viewing/editing externally created accounts</li>
+                            <li><i class="fa-solid fa-minus"></i> Enhance error handling for Smarty template loading</li>
+                            <li><i class="fa-solid fa-minus"></i> Fixed online players sorting by name, level, location</li>
+                            <li><i class="fa-solid fa-minus"></i> Fixed image slider backend (now only requires template call)</li>
+                            <li><i class="fa-solid fa-minus"></i> Fixed headline and content validation for sideboxes via ACP <small class="text-secondary">(thanks <a class="text-decoration-none" href="https://github.com/Jiinx" target="_blank">@Jiinx</a>)</small></li>
+							<!-- <li><i class="fa-solid fa-minus"></i> Restored email-based account activation system <small class="text-secondary">(thanks <a class="text-decoration-none" href="https://github.com/Jiinx" target="_blank">@Jiinx</a>)</small></li> -->
+                            <li><i class="fa-solid fa-minus"></i> Fix SQL integer display width warnings</li>
+                            <li><i class="fa-solid fa-minus"></i> Restored FusionGEN.net website (alpha version)</li>
+                        </ul>
+                    </div>
+
+                    <div class="changelog-item" data-aos="fade-right" data-aos-delay="200">
+                        <h3 class="h4 text-white fw-bold">January 2026</h3>
+                        <ul class="update-list mt-3">
+                            <li><i class="fa-solid fa-minus"></i> Enforced maximum passwords length of 16 characters</li>
+                            <li><i class="fa-solid fa-minus"></i> Improved Firefox browser compatibility for news article submissions <small class="text-secondary">(thanks <a class="text-decoration-none" href="https://github.com/Jiinx" target="_blank">@Jiinx</a>)</small></li>
+                        </ul>
+                    </div>
+
+                    <div class="text-center mt-5">
+                        <p class="fst-italic">More coming soon — stay tuned!</p>
+						<iframe src="https://ghbtns.com/github-btn.html?user=FusionGen&type=follow" width="130" height="20" title="GitHub"></iframe>
+						<iframe src="https://ghbtns.com/github-btn.html?user=FusionGen&repo=FusionGEN&type=star" width="46" height="20" title="GitHub"></iframe>
+                    </div>
                 </div>
             </div>
         </div>
