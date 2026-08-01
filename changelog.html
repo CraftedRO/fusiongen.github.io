@@ -55,11 +55,36 @@
                     <p class="text-center mb-5">Latest updates and improvements</p>
 
                     <!-- <div class="changelog-item" data-aos="fade-right" data-aos-delay="200"> -->
-                        <!-- <h3 class="h4 text-white fw-bold">July 2026</h3> -->
+                        <!-- <h3 class="h4 text-white fw-bold">August 2026</h3> -->
                         <!-- <ul class="update-list mt-3"> -->
                             <!-- <li><i class="fa-solid fa-minus"></i> Restored email-based account activation system <small class="text-secondary">(thanks <a class="text-decoration-none" href="https://github.com/Jiinx" target="_blank">@Jiinx</a>)</small></li> -->
                         <!-- </ul> -->
                     <!-- </div> -->
+
+                    <div class="changelog-item" data-aos="fade-right" data-aos-delay="200">
+                        <h3 class="h4 text-white fw-bold">July 2026</h3>
+                        <ul class="update-list mt-3">
+                            <li><i class="fa-solid fa-minus"></i> Fixed the global maintenance settings editing page to correctly display the saved configurations</li>
+                            <li><i class="fa-solid fa-minus"></i> Added topserver.live to the vote plugin <small class="text-secondary">(thanks <a class="text-decoration-none" href="https://github.com/haritz95" target="_blank">@haritz95</a>)</small></li>
+                            <li><i class="fa-solid fa-minus"></i> Removed duplicate <code>__construct()</code> methods and redundant database initializations</li>
+                            <li><i class="fa-solid fa-minus"></i> Removed the unused legacy session config file and the obsolete GMapBuilder function from theme.js</li>
+                            <li><i class="fa-solid fa-minus"></i> Refactored the session and visitors logging queries and updated the user_agents list</li>
+                            <li><i class="fa-solid fa-minus"></i> Renamed a configuration option to standardize project naming</li>
+                            <li><i class="fa-solid fa-minus"></i> Improved file handling and directors creation</li>
+                            <li><i class="fa-solid fa-minus"></i> Moved the getCaptcha function into the Registration controller</li>
+                            <li><i class="fa-solid fa-minus"></i> Removed remaining deprecated PayGol code and improved donation log search</li>
+                            <li><i class="fa-solid fa-minus"></i> Updated CodeIgniter to version 3.4.4</li>
+                            <li><i class="fa-solid fa-minus"></i> Added the username field alongside the nickname in the UCP</li>
+                            <li><i class="fa-solid fa-minus"></i> Removed unnecessary helper, library, and config includes already loaded by the autoloader</li>
+                            <li><i class="fa-solid fa-minus"></i> Added missing page titles for Login, ACL Manager, Groups, Roles, Email Logs, HP Logs, Sessions, Bans, and Tickets</li>
+                            <li><i class="fa-solid fa-minus"></i> Enforced <code>max_length[16]</code> validation for password recovery and reduced the username maximum length to 16</li>
+                            <li><i class="fa-solid fa-minus"></i> Updated additional language strings and removed duplicate entries</li>
+                            <li><i class="fa-solid fa-minus"></i> Validated and sanitized language selection <small class="text-secondary">(thanks <a class="text-decoration-none" href="https://github.com/Err0r1" target="_blank">@Err0r1</a>)</small></li>
+                            <li><i class="fa-solid fa-minus"></i> Replaced the deprecated <code>xss_clean()</code> with <code>html_escape()</code> in the format function</li>
+                            <li><i class="fa-solid fa-minus"></i> Added a return home username link in ACP lockscreen window as well</li>
+                            <li><i class="fa-solid fa-minus"></i> Updated Composer dependencies (Smarty v5.8.4)</li>
+                        </ul>
+                    </div>
 
                     <div class="changelog-item" data-aos="fade-right" data-aos-delay="200">
                         <h3 class="h4 text-white fw-bold">June 2026</h3>
